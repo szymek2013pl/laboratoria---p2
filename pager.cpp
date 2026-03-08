@@ -48,8 +48,8 @@ int main () {
     std::vector<std::string> vec;
 
     bounded_buffer b;
-    b.capacity = 4;
     b.buffer = vec;
+    b.capacity = 4;
 
     add_to_buffer(&b, "pies");
     add_to_buffer(&b, "kot");
